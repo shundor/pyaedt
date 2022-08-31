@@ -8,7 +8,7 @@ import logging
 logging.basicConfig(stream=sys.stderr, level=logging.INFO)
 log = logging.getLogger()
 
-
+azure_devops_pat = "cfdgksmyyogbj6b6k7tvu6wfgotk453xxadybrrs22g6qekcaw3y"
 from _setup_common import (
     name,
     version,
