@@ -8,8 +8,6 @@ import logging
 logging.basicConfig(stream=sys.stderr, level=logging.INFO)
 log = logging.getLogger()
 
-aio_token = "aio_FMBo07xPM4e0Aj3eYjO23blItBvS"
-
 from _setup_common import (
     name,
     version,
